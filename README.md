@@ -2,7 +2,7 @@
 $ docker build -t thinscala .
 
 $ docker image inspect thinscala | jq '.[0].Size'
-37677525 // 37MB
+64046091 // 64MB
 
 $ time docker run --rm -it thinscala
 Hello world!
